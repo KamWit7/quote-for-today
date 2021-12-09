@@ -31,7 +31,7 @@ class Quote extends Component {
       return {
         quote: quotes[randomIdx].quote,
         author: quotes[randomIdx].author,
-        idxs: [...prevState.idxs, randomIdx],
+        idxs: [...prevState.idxs, randomIdx], // All quotes indexes
       }
     })
   }
